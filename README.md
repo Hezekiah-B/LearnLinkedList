@@ -6,7 +6,7 @@
 
 
 
-## **Objectif : **
+## Objectif :
 
 - Créer une liste, avec un pointeur sur l'élément suivant et un pointeur sur le premier élément.
 
