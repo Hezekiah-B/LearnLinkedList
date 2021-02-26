@@ -1,10 +1,6 @@
 # LearnLinkedList
 
-
-
 **Avant de commencer, veuillez fork le repo, chaque repos sera vérifié**
-
-
 
 ## Objectif :
 
@@ -12,7 +8,7 @@
 
 - Chaque node contient un nombre, sa valeur vaut le nombre de la node précédente + 1
 
-Pour se faire à la racine, "mkdir src", puis vous pouvez créer un fichier avec un nom explicite.
+Pour se faire à la racine, "`mkdir src`", puis vous pouvez créer un fichier avec un nom explicite.
 
 Dans ce fichier se trouveront, trois fonctions :
 
@@ -32,6 +28,6 @@ Le but étant de passer tout les tests, puis chaque repos sera validé.
 
 Si vous souhaitez, faire un main pour essayer de votre côté : 
 
-- touch src/main.c
+- `touch src/main.c`
 
 - pour l'utiliser **`make re`** puis **`./linked`**
