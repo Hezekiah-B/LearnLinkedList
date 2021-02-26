@@ -5,14 +5,12 @@
 ** manage_list
 */
 
-#include "include/list.h"
-#include <stdio.h>
-#include <stdlib.h>
+#include "../include/exemple_list.h"
 
 list_s *initialise_first_node(void)
 {
     list_s *first = malloc(sizeof(list_s));
-    first->n = 0;
+    first->number = 0;
     first->next = NULL;
     first->first = first;
     return (first);
@@ -22,7 +20,7 @@ void add_new_node(list_s *list)
 {
     list_s *next = malloc(sizeof(list_s));
     next->first = list->first;
-    next->n = list->n + 1;
+    next->number = list->number + 1;
     next->next = NULL;
 }
 
